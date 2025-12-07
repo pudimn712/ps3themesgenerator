@@ -3,32 +3,77 @@
 <head>
 <meta charset="UTF-8">
 <title>Temas — Resk Utility Hub</title>
-</head>
-
-<!-- FUNDO -->
 <style>
 body, html {
     margin: 0;
     padding: 0;
-    background: url('https://github.com/pudimn712/Resk-Utility-Hub/blob/main/background.png?raw=true') no-repeat top center;
+    background: url('https://github.com/pudimn712/Resk-Utility-Hub/blob/main/background.png?raw=true') 
+                no-repeat top center;
     background-size: cover;
 }
-</style>
 
-<body bgcolor="#000" text="#39FF14">
+body {
+    background-color: #000;
+    color: #39FF14;
+    font-family: Arial, sans-serif;
+}
+
+/* MENU */
+.menu {
+    width: 100%;
+    background-color: #111;
+    padding: 15px;
+    border-bottom: 2px solid #39FF14;
+}
+
+.menu a {
+    color: #39FF14;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* TABELA DE TEMAS */
+.tabela {
+    margin: 40px auto;
+}
+
+.tema-box {
+    width: 200px;
+    height: 240px;
+    background-color: #111;
+    border: 2px solid #39FF14;
+    text-align: center;
+}
+
+.tema-box img {
+    width: 200px;
+    height: auto;
+}
+
+.tema-box a {
+    color: #39FF14;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    color: #fd0303;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
 
 <!-- MENU -->
-<table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#111">
-<tr>
-  <td><a href="index.html" style="color:#39FF14; text-decoration:none; font-size:18px;">Início</a></td>
-</tr>
-</table>
+<div class="menu">
+    <a href="index.html">Início</a>
+</div>
 
-<br>
-
-<!-- TABELA DE TEMAS -->
-<table border="0" cellspacing="20" cellpadding="10" align="center">
-
+<!-- TABELA -->
+<table class="tabela" border="0" cellspacing="20" cellpadding="10" align="center">
 
 <tr>
     <td><img src="https://raw.githubusercontent.com/pudimn712/ps3themesgenerator/main/img/Neymar_Jr.png" width="256"></td>
@@ -42,17 +87,12 @@ body, html {
     <td><a href="https://raw.githubusercontent.com/pudimn712/ps3themesgenerator/main/p3t/FIFA.pkg">Download</a></td>
 </tr>
 
-
 </table>
 
-<br><br>
-
 <!-- FOOTER -->
-<center>
-<font size="2">
-Créditos: <a href="https://www.youtube.com/AnimugenZ" style="color:#fd0303">AnimugenZ</a>
-</font>
-</center>
+<div class="footer">
+    Créditos: <a href="https://www.youtube.com/AnimugenZ" style="color:#fd0303;">AnimugenZ</a>
+</div>
 
 </body>
 </html>
